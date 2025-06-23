@@ -34,10 +34,10 @@ def perda_distribuida(L, D, v, f):
     return f * (L / D) * (v**2 / (2 * g))  # em metros
 
 def calculo_principal():
-    altura_recalque = 14.90  # m
+    altura_recalque = 14.90        # m
     comprimento_recalque = 20.90   # m
-    Dr_m = 0.23493652093855966  # m (exemplo do cano de recalque)
-    vr = 1.845436215937695      # m/s
+    Dr_m = 0.23493652093855966     # m (exemplo do cano de recalque)
+    vr = 1.845436215937695         # m/s
     
     # 2) Altura geométrica
     Hg = altura_recalque
